@@ -1,0 +1,93 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#choicesBar{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+    background-color: darkorange;
+}
+#countBar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+    background-color: darkorange;
+}
+#counter-user{
+    width: 100px;
+    flex: 1;
+    align-self: center;
+    text-align: center;
+}
+#counter-computer{
+    width: 100px;
+    flex: 1;
+    align-self: center;
+    text-align: center;
+}
+#actualChoices{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    background-color: aqua;
+}
+#imageInput21{
+    width: 100px;
+    flex: 1;
+    align-self: center;
+    text-align: center;
+    
+}
+#imageInput22{
+    width: 100px;
+    flex: 1;
+    align-self: center;
+    text-align: center;
+}
+#imageInput{
+    width: 100px;
+    flex: 1;
+    align-self: center;
+    text-align: center;
+}
+#result{
+    width: 20px;
+    flex: 1;
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+    background-color: indianred;
+    
+}
+#header-results{
+    background-color: indianred;
+}
+img{
+    width: 200px;
+    height: auto;
+    flex: 1;
+}
+#userbtns{
+    display: flex;
+}
+#Rockbtn{
+    flex: 1;
+}
+#Paperbtn{
+    flex: 1;
+}
+#Scissorsbtn{
+    flex: 1;
+}
+#choicesmade{
+   padding: 100px;
+
+}
